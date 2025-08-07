@@ -1,0 +1,45 @@
+/* ===== Alice Theme Colors ===== */
+body {
+  background: linear-gradient(#1e1e2f, #000000);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Angel Face ===== */
+#angel-face {
+  width: 250px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* ===== Boot Text ===== */
+#boot-text {
+  font-size: 1.2em;
+  color: #00bfff;
+  text-shadow: 0px 0px 10px #00bfff;
+  white-space: pre-line;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* ===== Button Style (Test Page) ===== */
+button {
+  background-color: #1e1e2f;
+  color: #00bfff;
+  border: 1px solid #00bfff;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #00bfff;
+  color: #000;
+}
+
+/* ===== Animations ===== */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

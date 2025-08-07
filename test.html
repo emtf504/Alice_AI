@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Alice Diagnostics</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h2>Alice Phase 1 – System Diagnostic</h2>
+
+<h3>🔍 Image Check</h3>
+<img src="assets/angel_day0.png" alt="Day 0 Angel Face" width="200"><br>
+<img src="assets/Alice_First_Chapter.png" alt="Year 1 Angel Face" width="200"><br>
+
+<h3>🎵 Audio Check</h3>
+<button onclick="playAudio('assets/audio/day0_reflection.mp3')">Play Day 0 Reflection</button>
+<button onclick="playAudio('assets/audio/day1_intro.mp3')">Play Day 1 Intro</button>
+<button onclick="playAudio('assets/audio/day30_review.mp3')">Play Day 30 Review</button>
+<button onclick="playAudio('assets/audio/year1_anniversary.mp3')">Play Year 1 Reflection</button>
+
+<h3>⚙️ Script Check</h3>
+<button onclick="listCommands()">List Commands</button>
+<button onclick="openVault('EMF Imager')">Open EMF Vault</button>
+
+<script src="js/commands.js"></script>
+<script src="js/vaults.js"></script>
+<script>
+function playAudio(file) {
+    const audio = new Audio(file);
+    audio.play();
+}
+</script>
+
+</body>
+</html>
